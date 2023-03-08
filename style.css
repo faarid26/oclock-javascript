@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.clock {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin: 70px auto;
+    position: relative;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.xett-1 {
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    position: absolute;
+}
+.xett-2 {
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    transform: rotate(90deg);
+    position: absolute;
+}
+.xett-3 {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    transform: rotate(-30deg);
+    position: absolute;
+}
+.xett-4 {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    transform: rotate(-60deg);
+    position: absolute;
+}
+.xett-5 {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    transform: rotate(30deg);
+    position: absolute;
+}
+.xett-6 {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    transform: rotate(60deg);
+    position: absolute;
+}
+.clock__main {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.saat__main {
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.saat__elc {
+    width: 58px;
+    height: 18px;
+    border-radius: 30px;
+    border: 2px solid antiquewhite;
+    background: none;
+    position: absolute;
+    bottom: 30%;
+    text-align: center;
+}
+.day {
+    width: 58px;
+    height: 18px;
+    border-radius: 30px;
+    border: 2px solid antiquewhite;
+    background: none;
+    position: absolute;
+    bottom: 47%;
+    right: 47px;
+    text-align: center;
+}
+.hours {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 6rem;
+    width: .5rem;
+    background-color: black;
+    border-radius: 15px;
+    transform: translateX(-50%);
+    transform-origin: 50% 0;
+}
+.min {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 6rem;
+    width: .3rem;
+    border-radius: 20px;
+    background-color: black;
+    transform: translateX(-50%);
+    transform-origin: 25% 0;
+    /* width: 100px;
+    height: 3px;
+    background-color: #000;
+    position: absolute;
+    transform: rotate(90deg);
+    bottom: 50px;
+    left: -42px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px; */
+}
+.sec {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 6rem;
+    width: .1rem;
+    background-color: tomato;
+    transform: translateX(-50%);
+    transform-origin: 25% 0;
+    /* width: 80px;
+    height: 3px;
+    background-color: #000;
+    position: absolute;
+    transform: rotate(90deg);
+    bottom: -38px;
+    left: -32px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px; */
+}
+.clock__main :nth-child(1) {
+    position: absolute;
+    top: 19px;
+    right: 65px;
+}
+.clock__main :nth-child(5) {
+    position: absolute;
+    top: 212px;
+    right: 62px;
+}
+.clock__main :nth-child(4) {
+    position: absolute;
+    top: 175px;
+    right: 22px;
+}
+.clock__main :nth-child(3) {
+    position: absolute;
+    right: 10px;
+}
+.clock__main :nth-child(2) {
+    position: absolute;
+    right: 23px;
+    top: 56px;
+}
+.clock__main :nth-child(9) {
+    position: absolute;
+    left: 10px;
+}
+.clock__main :nth-child(6) {
+    position: absolute;
+    bottom: 10px;
+}
+.clock__main :nth-child(7) {
+    position: absolute;
+    bottom: 18px;
+    left: 65px;
+}
+.clock__main :nth-child(8) {
+    position: absolute;
+    bottom: 57px;
+    left: 23px;
+}
+.clock__main :nth-child(10) {
+    position: absolute;
+    top: 59px;
+    left: 27px;
+}
+.clock__main :nth-child(11) {
+    position: absolute;
+    top: 19px;
+    left: 65px;
+}
+.clock__main :nth-child(12) {
+    position: absolute;
+    top: 10px;
+}
